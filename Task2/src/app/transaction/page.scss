@@ -1,0 +1,43 @@
+.transaction-container {
+    width: 50%;
+    .form {
+        
+        margin-top: 50px;
+    }
+    .transaction-header {
+        display: flex;
+        justify-content: space-between;
+        .left-side-header {
+            .back-button {
+                display: flex;
+                align-items: center;
+                span {
+                    color: black;
+                    font-size: 16px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+            }
+            .left-side-text {
+                color: black;
+                font-size: 24px;
+                font-weight: 700;
+            }
+        }
+        .right-side-header {
+            button{
+                background-color: blueviolet;
+                border-radius: 8px;
+                font-size: 13px;
+                width: 80px;
+                height: 35px;
+                color: aliceblue;
+                font-weight: 700;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 10px;
+            }
+        }
+    }
+}
